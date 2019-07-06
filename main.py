@@ -4,7 +4,7 @@ from flask import Flask, render_template, jsonify
 import envirophat
 import os
 
-HTTP_PORT = int(os.environ.get('HTTP_PORT', '5000'))
+HTTP_PORT = int(os.environ.get('192.168.0.5', '5000'))
 
 app = Flask(__name__)
 
